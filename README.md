@@ -16,22 +16,26 @@ POST /identify
 ### Request
 
 {
-  "email": "mcfly@hillvalley.edu",
-  "phoneNumber": "123456"
+ "email": "kbhargavreddy22@gmail.com",
+ "phoneNumber": "7780540771"
 }
 
 ### Response
 
 {
-  "contact": {
-    "primaryContactId": 1,
-    "emails": [
-      "lorraine@hillvalley.edu",
-      "mcfly@hillvalley.edu"
-    ],
-    "phoneNumbers": ["123456"],
-    "secondaryContactIds": [23]
-  }
+    "contact": {
+        "primaryContactId": 6,
+        "emails": [
+            "kbhargavreddy22@gmail.com"
+        ],
+        "phoneNumbers": [
+            "7780479278",
+            "7780540771"
+        ],
+        "secondaryContactIds": [
+            7
+        ]
+    }
 }
 
 ## Deployment
